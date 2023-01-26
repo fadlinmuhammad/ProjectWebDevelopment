@@ -1,66 +1,103 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# E Pray
 
-## About Laravel
+INTRODUCTION 
+- Surau management in mahallah seems a little bit unmanaged in terms of tasks division causing lack of use of surau. To further encourage the use of surau in orderly manners, our group decided to develop a system to organize a better management of surau. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+OBJECTIVE 
+- The main objective of our system is to provide a database to ease the management of surau in mahallah. Next, we love to develop a simple and direct yet effective system that provides no error. Then, the system also manages the arrangement of Bilal and Imam for each prayer, provides the prayer time schedule and also registration page that allow users to apply to be Imam and Bilal.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+FEATURES AND FUNCTIONALITIES 
+- There are three main features and functionalities of our system. Firstly, we will provide a registration page for users who are interested in applying for Bilal and Imam positions for mahallah's surau. Next, based on the registration form filled by users, we will arrange the schedule of Imam and Bilal on duty for every prayer time. Lastly, the system will also provide the schedule of prayer time for users to refer.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+ER DIAGRAM
+![1](https://user-images.githubusercontent.com/121501013/214757781-192d69b9-5b98-4b26-8028-05e892baee74.jpeg)
 
-## Learning Laravel
+SEQUENCE DIAGRAM
+![2](https://user-images.githubusercontent.com/121501013/214757855-fb165b0d-5610-40c2-8659-39fab53aacca.jpeg)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+PROJECT SYSTEM 
+![homepage](https://user-images.githubusercontent.com/121501013/214757937-848f72e1-28e8-498f-abbd-8e93b1ce938d.jpg)
+Sub-Menu 1: Homepage 
+- Navigation bar available on the left side 
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![2](https://user-images.githubusercontent.com/121501013/214758021-cae114b4-3beb-4719-afc4-3611fa60691a.jpg)
+Sub-Menu 2: Booking 
+Display list of student 
+- “Add New Booking” button available
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![3](https://user-images.githubusercontent.com/121501013/214758089-0f233367-d42f-420d-863e-0668a9c73788.jpg)
+“Add New Booking” Button
+- Clicking the button to go to Booking System Page
 
-## Laravel Sponsors
+![4](https://user-images.githubusercontent.com/121501013/214758173-66fa045a-c1bf-421b-9da0-78bb04836bf5.jpg)
+Display Facts related to Islamic students 
+- Only display dynamic text 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+![5](https://user-images.githubusercontent.com/121501013/214758195-33a84760-fd23-45ef-9280-5286dfd010aa.jpg)
+Display Facts related to Islamic students
+- Only display dynamic text 
 
-### Premium Partners
+![6](https://user-images.githubusercontent.com/121501013/214758201-c0aaec00-b506-4df2-b491-f9a254bc5d48.jpg)
+Sub-Menu 3: Time Prayer
+- Only display dynamic text 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![7](https://user-images.githubusercontent.com/121501013/214758258-e7022cb2-8faa-4158-bbcc-294214ce65f2.jpg)
+Sub-Menu 3: Time Prayer 
+- “Update Task” button available to go to Report Page
 
-## Contributing
+![8](https://user-images.githubusercontent.com/121501013/214758262-f5de5ba9-b212-4c18-b827-0a70df4c75d2.jpg)
+Sub-Menu 4: Rules
+- Display content that can be interact
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![9](https://user-images.githubusercontent.com/121501013/214758267-1dfefbd0-4c2d-4516-bd57-7b3985e38874.jpg)
+Sub-Menu 4: Rules
+- Zoom in button available to provide bigger view for each content
 
-## Code of Conduct
+![10](https://user-images.githubusercontent.com/121501013/214758272-2481701c-b93d-4d5e-a081-9d4e9d224c18.jpg)
+Sub-Menu 4: Rules
+- Content extension
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![11](https://user-images.githubusercontent.com/121501013/214758284-ad6f254a-553d-473a-8b94-4e439c71922f.jpg)
+Sub-Menu 4: Rules 
+- Zoom in view of Rules Sub-Menu content
 
-## Security Vulnerabilities
+![12](https://user-images.githubusercontent.com/121501013/214758297-44633d79-619d-4740-b3b6-7f43a1ed29d6.jpg)
+Sub-Menu 5: Services
+- Only display dynamic text 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![13](https://user-images.githubusercontent.com/121501013/214758312-8b3bb0ad-805e-4ef8-b67c-f628909debbd.jpg)
+Booking system Page 
+- Fill every text box to submit booking
+- “Back” button available to cancel booking
 
-## License
+![14](https://user-images.githubusercontent.com/121501013/214758324-cf6073b5-f252-471b-a7d8-874197c7c685.jpg)
+Booking system Page
+- Click “submit” without fill details
+- Message appeared as each box is mandatory to fill
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![15](https://user-images.githubusercontent.com/121501013/214758338-4ca5d1dd-29e3-4f28-a050-4f9f7f3f439f.jpg)
+Report page
+- Fill every text box to submit report
+- “Back” button available to cancel report
+
+![16](https://user-images.githubusercontent.com/121501013/214758363-9594786a-1420-4a70-bdf9-39eaa41de00b.jpg)
+Report page
+- Click “submit” without fill details
+- Message appeared as each box is mandatory to fill
+
+![17](https://user-images.githubusercontent.com/121501013/214758373-b2c9c182-4382-4197-b80a-1f00de698e65.jpg)
+Registration Page
+- If already registered, “Login Here” button is available to go to Login Page
+- If the same email is registered twice, a message will appear.
+
+![18](https://user-images.githubusercontent.com/121501013/214758393-d6e4f6bb-0b5c-4ff5-a409-8b43d69536ba.jpg)
+Login Page
+- If never registered, “Register Here” button is available to go to Registration Page
+- If the email is not registered yet, a message will appear.
+
+CHALLENGE/DIFFICULTIES TO DEVELOP THE APPLICATION
+- As the application is related to prayer time, the table for prayer time display needs to be updated regularly as the time changes. Our application does not have the function to update the table, we need to always check the prayer time. Updating the table manually is always our responsibility as the developers so that people who use our application will not mislead. List of student tables does not have any function applied to be updated to the latest one. So, everytime new people make a new booking, we need to always alert and update the table manually and display it as soon as possible. 
+
+
+
