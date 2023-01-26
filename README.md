@@ -97,7 +97,11 @@ Login Page
 <br> If the email is not registered yet, a message will appear.<br><br>
 
 CHALLENGE/DIFFICULTIES TO DEVELOP THE APPLICATION
-- As the application is related to prayer time, the table for prayer time display needs to be updated regularly as the time changes. Our application does not have the function to update the table, we need to always check the prayer time. Updating the table manually is always our responsibility as the developers so that people who use our application will not mislead. List of student tables does not have any function applied to be updated to the latest one. So, everytime new people make a new booking, we need to always alert and update the table manually and display it as soon as possible. 
+- As the application is related to prayer time, the table for prayer time display needs to be updated regularly as the time changes. 
+- Our application does not have the function to update the table, we need to always check the prayer time. 
+- Updating the table manually is always our responsibility as the developers so that people who use our application will not mislead. 
+- List of student tables does not have any function applied to be updated to the latest one. 
+- So, everytime new people make a new booking, we need to always alert and update the table manually and display it as soon as possible. 
 
 
 
